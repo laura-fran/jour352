@@ -21,7 +21,7 @@ h4{
   margin-bottom: 24px;
 }
 blockquote {
-font-size: 16px/24px;
+font-size: 18px;
 font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
 font-style: italic;
 margin-top: 15px;
@@ -46,7 +46,7 @@ p{
 }
 #content {
    margin: 0 auto;
-   width: 740px;
+   width: 800px;
  }
  #header{
 
