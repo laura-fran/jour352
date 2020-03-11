@@ -11,8 +11,9 @@ h5{
 }
 h2{
   font-family: 'Merriweather', serif;
-  font-size:24px;
+  font-size:20px;
   letter-spacing: 1px;
+
 }
 
 h6{
@@ -56,9 +57,10 @@ p{
    margin: 0 auto;
    width: 800px;
  }
- #header{
-
+ #padding{
+   padding-top:150px;
  }
+ 
  .caption{
   color:#999999;
 }
@@ -66,7 +68,9 @@ p{
    max-width: 600px;
    width: 100%;
    margin: 10px;
+   padding-left: 20px;
    display: block;
+
    }
    .column {
     float: left;
@@ -78,3 +82,8 @@ p{
   clear: both;
   display: table;
 }
+  .textcolumn{
+    float: left;
+    width: 50%;
+
+  }
