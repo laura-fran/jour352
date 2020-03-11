@@ -9,6 +9,12 @@ h5{
   font-weight: bold;
   color: #999999;
 }
+h2{
+  font-family: 'Merriweather', serif;
+  font-size:24px;
+  letter-spacing: 1px;
+}
+
 h6{
   font-family: 'Merriweather', sans-serif;
   font-size: 14px;
@@ -20,6 +26,8 @@ h4{
   font-style: italic;
   margin-bottom: 24px;
 }
+
+
 blockquote {
 font-size: 18px;
 font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
@@ -44,7 +52,7 @@ p{
   font-size:16px;
   line-height: 1.6;
 }
-#content {
+.content {
    margin: 0 auto;
    width: 800px;
  }
