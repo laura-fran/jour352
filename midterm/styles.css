@@ -1,0 +1,72 @@
+h1{
+  font-family: 'Merriweather', serif;
+  font-size:  30px;
+  letter-spacing: 1px;
+}
+h5{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #999999;
+}
+h6{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 14px;
+
+  color: #999999;
+}
+h4{
+  font-family:'Noto Sans JP', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+blockquote {
+font-size: 16px/24px;
+font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+background-color: #87c7d4;
+color: white;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}
+/* this makes the link stay blue after it is clicked on */
+a:visited{
+  color:blue;
+}
+h3{
+  font-style: bold;
+}
+p{
+  font-family:'Noto Sans JP', Helvetica, Arial, sans-serif;
+  font-size:16px;
+  line-height: 1.6;
+}
+#content {
+   margin: 0 auto;
+   width: 740px;
+ }
+ #header{
+
+ }
+ .caption{
+  color:#999999;
+}
+ img{
+   max-width: 600px;
+   width: 100%;
+   margin: 10px;
+   display: block;
+   }
+   .column {
+    float: left;
+    width: 43%;
+    padding: 25px;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
